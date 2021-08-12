@@ -1,0 +1,373 @@
+:root {
+        /* Fonts */
+        --text-font:"DM Sans";
+        --text-color:#42403f;
+        --background-color:#ffffff;
+        
+        /* Normal */
+        --primary-color:rgba(255, 158, 158);
+        }
+        
+        * {
+        font-family:"DM Sans";
+        }
+        
+        body {
+                overflow-x:hidden;
+        }
+        
+        
+        h1,
+        h2
+        ,h3
+        ,h4
+        ,h5
+        ,h6 {
+          color:var(--text-color);
+        }
+        
+        
+        
+        img {
+         border-radius:50px;
+         background-color:rgba(255, 219, 219);
+         padding:7px;
+         margin-left:5px;
+                  width:25px;
+        }
+ 
+                #search-bar {
+                  width:250px;
+                  height:24px;
+                  margin-left:190px; 
+                  border:0px solid rgba(232, 232, 232);
+                  
+                  user-select:none;  
+                  background-color:transparent;
+                  transition:all 1s;
+                  
+                  position:relative;
+                  top:9px;
+                    outline : none;
+                }
+                
+                input[type=text]:focus {
+                    width: 200px;
+                  
+                    border-bottom:1px solid rgba(232, 232, 232);
+                }
+                
+                .icon-batch {
+                   float:right;
+                   margin-top:-15px; margin-right:70px;
+                   color:rgba(123, 123, 123);
+                   height:46px;
+                }
+                
+                .top-nav {
+                   border-bottom:1px solid rgba(247, 247, 247);
+                   height:31px;
+                   padding-bottom:21px;
+                   
+                }
+        
+                .text {
+                
+                 position:relative;
+                 top:-46px;
+                 margin-top:41px;
+                }
+                .text-message {
+                 background-color:var(--primary-color);
+                 padding:5px;
+                 color:white;
+                 border-radius:9px;
+                 font-size:13px;
+                 
+                 max-width:200px;
+                }
+                
+                
+                #sub-title {
+                 color:rgba(224, 224, 224);
+                }
+                
+                #duskpin{
+                  width:25px;
+                  background-color:rgba(184, 237, 255);
+                }
+                
+                #chat {
+                        margin-left:214px;
+                        margin-top:32px;
+                        height:488px;
+                        overflow-y:scroll;
+                        overflow-x:hidden;
+                }
+                
+                .text-message-me {
+                }
+                
+                .text-mio{
+                        width:200px;
+                        background-color:rgba(240, 240, 240);
+                        float:right;
+                       padding:10px; 
+                       border-radius:5px;
+                 font-size:13px;
+                 margin-right:11px;
+                 display:block;
+                }
+                
+                #chatter {
+                        width:42%;
+                  height:24px;
+                  margin-left:196px; 
+                  padding:9px;
+                  border:none;
+                  user-select:none;  
+                  transition:all 1s;
+                  
+                  position:fixed;
+                  bottom:18px; right:214px;
+                  border-radius:23px;
+                  border:1px solid rgba(232, 232, 232);
+                  background-color:white;
+                }
+                
+                #chatty {
+                       width:42%;
+                  height:24px;
+                  margin-left:196px; 
+                  padding:9px;
+                  border:none;
+                  user-select:none;  
+                  transition:all 1s;
+                  
+                  position:fixed;
+                  bottom:18px; right:214px;
+                  border-radius:23px;
+                  border:1px solid rgba(232, 232, 232);
+                }
+                
+                #chatFACE {
+                        
+                       width:42%;
+                  height:24px;
+                  margin-left:196px; 
+                  padding:9px;
+                  border:none;
+                  user-select:none;  
+                  transition:all 1s;
+                  
+                  position:fixed;
+                  bottom:18px; right:214px;
+                  border-radius:23px;
+                  border:1px solid rgba(232, 232, 232);
+                }
+                
+                .type-text {
+                        width:100%;
+                }
+                
+                .text-e {
+                        width:200px;
+                        background-color:rgba(240, 240, 240);
+                        float:right;
+                       padding:10px; 
+                       border-radius:5px;
+                 font-size:13px;
+                 margin-right:11px;
+                 display:block;
+                }
+                
+                
+                .timestamp {
+                    text-align:center;
+                    font-size:13px;
+                    padding:0.05px;
+                    background:rgba(0, 0, 0);
+                    margin-left:370px;
+                    margin-top:124px;
+                    width:146px;
+                    border-radius:3px;
+                    color:white;
+                    
+                }
+        
+                .side-nav {
+                      float:left;
+                      display:block;
+                      position:fixed;
+                      top:60px; left:-1px;
+                      height:523px;
+                      width:200px;
+                      border-right:1px solid rgba(240, 240, 240);
+                      overflow-y:scroll;
+                }
+                
+                .link {
+                        margin-bottom:4px;
+                      user-select:none;
+                      padding:16px;
+                }
+                
+                .link.active {
+                        background-color:gray;
+                }
+                
+                .link:hover {
+                        background-image: linear-gradient(to right, rgba(247, 247, 247,1),rgba(255, 255, 255) , rgba(240, 240, 240,0));
+                        cursor:pointer;
+                        
+                }
+                
+                .link:active {
+                        border-left:2px solid rgba(0, 0, 0);
+                }
+                
+                .link #sub-title {
+                margin:0px 0px 0px 8px;
+                }
+                
+                .msg-hed {
+                    font-size:10px;
+                    line-height:0px;
+                    color:rgba(186, 186, 186);
+                }
+                
+                .cont 
+                {
+                    line-height:0px;
+                    margin-left:9px;
+                }
+        
+            .modal {
+ display:none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  width: 29%; /* Full width */
+  top:36px;
+  right:76px;
+  height: 213px; /* Full height */
+  transition:90s all ease-in;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: rgba(255, 247, 247);
+  margin: 15% auto; /* 15% from the top and centered */
+  color:gray;
+  padding: 20px;
+  box-shadow:10px 10px 10px rgba(194, 194, 194, 0.4);
+  width: 80%; /* Could be more or less, depending on screen size */
+  border-radius:9px;
+  
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  text-align:center;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+      top:-300px; opacity:0;
+      
+  } 
+  to {
+      top:0; opacity:1;
+      
+  }
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0;}
+  to {top:0; opacity:1;}
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.mdl {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-cont {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s
+}
+
+
+.modal-head {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-bod {padding: 2px 16px;}
+
+.modal-foot {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0;}
+  to {bottom: 0; opacity: 1;}
+}
+
+
+@keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+        
+
+            .modal-content button {
+                width:100%;
+                margin-bottom:10px;
+                border:none;
+                padding:10px;
+            }
+            
+            .paperclip:hover {
+                color:green;
+            }
+            
+        
