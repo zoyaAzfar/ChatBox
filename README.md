@@ -1,4 +1,7 @@
-Here's my very own ChatApp.
+# ChatBox - A Simple Chat App
+
+
+Here's my very own Chat App.
 No one can actually send messages back to you, (sadly) becuase I'd need a Cloud software for that.
 
 Some features:
