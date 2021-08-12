@@ -4,4 +4,7 @@ No one can actually send messages back to you, (sadly) becuase I'd need a Cloud 
 Some features:
 1. Sidebar sorta works
 2. Profile button works
-3. You can send messages! :D
+3. You can send messages! :
+
+Sadly, I was very tired when I made this, so the code is not neat. :P
+
