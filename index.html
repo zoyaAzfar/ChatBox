@@ -1,1 +1,299 @@
+<nav class = "top-nav">
+      <div>
+          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56.966 56.966' width="11" style = "position:absolute; right:583px; top:23.9px" fill = "rgba(112, 112, 112)">
+               <path d = "M55.146 51.887L41.588 37.786A22.926 22.926 0 0046.984 23c0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c4.761 0 9.298-1.436 13.177-4.162l13.661 14.208c.571.593 1.339.92 2.162.92.779 0 1.518-.297 2.079-.837a3.004 3.004 0 00.083-4.242zM23.984 6c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17z"/>
+          </svg>
+          <input type = "text" placeholder = "Search..."  id = "search-bar">   
+      </div> 
+      <div class = "icon-batch">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" width="26px" style="position:relative; top:-11px; border-right:1px solid rgba(232, 232, 232); padding-right:9px" >
+     					<circle cx="12" cy="12" r="3" />
+     					<path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" />
+				   </svg>
+           <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/starky-sapling.png" alt="duskpin sapling" width = "25px" style = "position:relative; top:-6px"  id ="profile-icon">
+                      
+            <svg style = "position:absolute; top:9px; right:-205px">
+                <circle cx="12" cy="12" r="4" fill = "rgba(113, 189, 94)" stroke = "white"  stroke-width = "2px"/>
+            </svg>
+        </div>
+</nav>
+           
+<nav class = "side-nav" style = "overflow-x:hidden;">
+           <h2 style ="margin-left:23px">Contacts</h2>
+                <div class = "link"  onClick = "changePage(2)">
+                        <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/starky-sapling.png" >
+                        <div class = "cont">
+                            <p>You</p>
+                        <p class = "msg-hed">Have homework assignment...</p>
+                        </div>
+                        
+                </div>
+                <div class = "link" onClick = "changePage(1)">
+                        <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/leaf-orange.png" style = "background-color:black;">
+                        <div class = "cont" >
+                            <p>Middle School </p>
+                        <p class = "msg-hed">Duskpin: Thank you thank y...</p>
+                        </div>
+                        
+                </div>
+                <div class = "link" onClick = "changePage(3)">
+                        <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/duskpin-sapling.png" id = "duskpin">
+                        
+                        <div class = "cont">
+                            <p>Duskpin</p>
+                        <p class = "msg-hed">Aw, did you see that puppy...</p>
+                        <svg style = "position:absolute; top:323px; right:-84px">
+                          <circle cx="12" cy="12" r="4" fill = "rgba(113, 189, 94)" stroke = "white"  stroke-width = "2px"/>
+                      </svg>
+                        </div>
+                        
+                </div>
+                <div class = "link">
+                        <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/leafers-sapling.png" style = "background:rgba(255, 237, 102)">
+                        
+                        <div class = "cont">
+                            <p>Leafers</p>
+                        <p class = "msg-hed">Last seen yesterday, 9:30</p>
+                        </div>
+                        
+                </div>
+                <div class = "link">
+                        <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/starky-ultimate.png" style = "background:rgba(255, 189, 201)">
+                        
+                        <div class = "cont">
+                            <p>Mom</p>
+                        <p class = "msg-hed">Make sure to take care of...</p>
+                        </div>
+                        <svg style = "position:absolute; top:567px; right:-84px">
+                          <circle cx="12" cy="12" r="4" fill = "rgba(113, 189, 94)" stroke = "white"  stroke-width = "2px"/>
+                      </svg>
+                </div>
+                <div class = "link">
+                        <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/piceratops-ultimate.png" style = "background:rgba(227, 227, 227)">
+                        <div class = "cont">
+                            <p>Dad</p>
+                        <p class = "msg-hed">Which time is ur meet? 5?</p>
+                        </div>
+                </div>
+       <div class = "link">
+             <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/piceratops-sapling.png" style = "background:rgba(61, 0, 0)">
+                        <div class = "cont">
+                            <p>Pri</p>
+                        <p class = "msg-hed">Total bummer sis but Mom...</p>
+                        </div>
+        </div>
+       <div class = "link">
+                        <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-tree.png" style = "background:rgba(181, 162, 224)">
+            <div class = "cont">
+                  <p>Aqua</p>
+                  <p class = "msg-hed">Got a B on tst. Mom will kill m...</p>
+            </div>
+      </div>
+</nav>
+           
+<div id="myModal" class="modal">
 
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                
+                 <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/starky-sapling.png" style = " width:90px">
+                <h3>Star P. Sapling</h3>
+                <p style="font-size:12px; position:relative; top:-21px"> starryplight@mailbox.com</p>
+                
+                <button onClick = "changePage(4)">How it works</button>
+                <button onClick = "changePage(5)">Settings</button>
+              </div>
+            
+            </div>
+<div id="modal" class="mdl">
+
+  <!-- Modal content -->
+  <div class="content">
+    <div class="header">
+      <span class="X">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+<section id= "chat" class ="page">
+                <div id ="group">
+                <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/leaf-orange.png" style = "background-color:rgba(0, 0, 0);" >
+        <div style = "position:relative; top:-55px; left:56px; color:gray; line-height:3px">
+                <h3>Middle School Group</h3>
+                        <p style = "color:gray; font-size:10px"> You, Duskpin and 2 others</p>
+                        </div>
+                </div>
+                <div class = "text">
+                <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/duskpin-sapling.png" id = "duskpin">
+                        <div  class = "text-message">
+                        <p>Anyone have the homework for today? Missed classes, soo.. &#128517;</p>
+                        
+                        <p id = "sub-title">⋮   15:30  </p>
+                        </div>
+                       
+                </div>
+                <div class = "text">
+                <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/leafers-sapling.png" style = "background-color:rgba(255, 230, 0);">
+                        <div  class = "text-message">
+                        <p>Aw, come on, can't you attend at least ONE class? Here:</p>
+                        <p><img style = "background:white; border-radius:8px; width:99px; height:110px;" src ="https://upload.wikimedia.org/wikipedia/commons/a/a1/Google_docs.png" ><br>
+                        
+                        <p id = "sub-title">⋮    15:32  </p>
+                        </div>
+                       
+                </div>
+                <div class = "text">
+                <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/duskpin-sapling.png" id = "duskpin">
+                        <div  class = "text-message">
+                        <p>Thank you thank you thank you!! 🥰🥰  </p>
+               
+                         
+                        <p id = "sub-title">⋮   15:33 </p>
+                        </div>
+                </div>
+                
+                <div id="thoughts"></div>
+                
+                <div class = "type-text">
+                        <input type = "text" placeholder = "What do you wanna say?" id ="chatter">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image" width="22px" style = " position:fixed; bottom:27px; right:182px;color:gray;">
+      <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+      <circle cx="8.5" cy="8.5" r="1.5" />
+      <path d="M21 15l-5-5L5 21" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="paperclip" width="22px" style = "position:fixed; bottom:27px; right:149px;color:gray;" id = "paperCLIP">
+     <path d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48" /></svg>
+     
+     <button style = "background-color:var(--primary-color); border:none; padding:8px; color:white; border-radius:26px; position:fixed; right:63px; bottom:22px; width:72px;" onClick ="get_thought()"> Send </button>
+     
+     
+                </div>
+                
+           </section>
+<section class ="page">
+           
+           <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/starky-sapling.png" style = " float:right; position:relative; right:-137px; top:9px">
+           <div class ="text-message-me"style = "position:relative; top:59px; right:-197px; margin-bottom:-7px">
+                   <div class = "text-e">
+                   <p>Click the profile icon in the top navigation to get instructions! 😊
+                     </p>
+                      <p id = "sub-title">⋮ 26/5/2021 </p>
+                   </div>
+               </div>
+               
+               <br><br>
+           <div class ="text-message-me" style = "position:relative; top:136px; right:-428px">
+                   <div class = "text-e">
+                   <p>
+                     Reminder to go 2 movies with Duskpin and Aqua on Friday. Remember this time! 
+                     </p>
+                     <p id = "sub-title">⋮ 27/5/2021 </p>
+                   </div>
+               </div>
+               <br><br>
+           <div class ="text-message-me" style = "position:relative; top:145px; right:-1px">
+                   <div class = "text-e">
+                   <p>
+                      Have homework assignment due on Monday. History book report, probably will ace it lol.
+                      </p>
+                       <p id = "sub-title">⋮ 13:50 </p>
+                   </div>
+               </div>
+               
+               
+                <div id = "res"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+                        
+                <div class = "type-text">
+                        <input type = "text" placeholder = "What do you wanna say?" id ="chatty">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image" width="22px" style = " position:fixed; bottom:27px; right:182px;color:gray;" id = 'paperclip'>
+      <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+      <circle cx="8.5" cy="8.5" r="1.5" />
+      <path d="M21 15l-5-5L5 21" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-paperclip" width="22px" style = "position:fixed; bottom:27px; right:149px;color:gray;">
+     <path d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48" /></svg>
+     
+     <button style = "background-color:var(--primary-color); border:none; padding:8px; color:white; border-radius:26px; position:fixed; right:63px; bottom:22px; width:72px;" onClick ="goToHEll()"> Send </button>
+     
+     
+                </div>
+                
+                
+           </section>
+<section class ="page">
+           <div class ="text-message-me">
+                   <div class = "text-mio">
+                   <p>
+                     Hey Dusk, you're good at math. What was Q3?
+                     </p>
+                   </div>
+                   
+                   <div class = "text" style ="margin-left:209px; position:relative; top:90px;">
+                <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/duskpin-sapling.png" id = "duskpin" >
+                        <div  class = "text-message">
+                        <p>2/3 duh. </p>
+                        
+                        <p id = "sub-title">⋮   15:30  </p>
+                        </div>
+                       
+                </div>
+                   
+                   <div class ="timestamp">
+                       <p> Unread Messages</p>
+                   </div>
+                   
+                   <div class = "text" style ="margin-left:209px; position:relative; ">
+                <img src = "https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/duskpin-sapling.png" id = "duskpin">
+                        <div  class = "text-message">
+                        <p>Aw, did you see that puppy video, when the puppy rolls over? So cute! Totally check it out: <br>
+                                <a href = "https://www.youtube.com/watch?v=cOG6l3pJ_Hw"><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Golden_Retriever_puppy_standing.jpg/800px-Golden_Retriever_puppy_standing.jpg" style  = "background:none; height:120px; width:185px; border-radius:0px; position:relative; right:8px"></a>
+                        
+                        <p id = "sub-title">⋮   15:30  </p>
+                        </div>
+                </div>
+                
+                       <div id ="r"></div>
+               </div>
+                        
+                <div class = "type-text">
+                        <input type = "text" placeholder = "What do you wanna say?" id ="chatFACE">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image" width="22px" style = " position:fixed; bottom:27px; right:182px;color:gray;">
+      <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+      <circle cx="8.5" cy="8.5" r="1.5" />
+      <path d="M21 15l-5-5L5 21" /></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-paperclip" width="22px" style = "position:fixed; bottom:27px; right:149px;color:gray;">
+     <path d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48" /></svg>
+     
+     <button style = "background-color:var(--primary-color); border:none; padding:8px; color:white; border-radius:26px; position:fixed; right:63px; bottom:22px; width:72px;" onClick ="sad_face();"> Send </button>
+     
+     
+                </div>
+           </section>
+<section class ="page" style ="margin-left:200px">
+                   <h1 style = "font-size:40px; text-align:center">Hey there!</h1>
+                   <p>Yeah you! I bet you're wondering, how should I use this? Here's a set of insrutctions just for you! </p>
+                   <p> 
+                          
+                                <h2>How to I Format Texts?</h2> 
+                             <p>   To format your texts, do the HTML equivilent. So, for italics, wrap your text in an em tag!  For bold, wrap it in a strong tag. You can add <strong>any HTML tag this way, just by writting it in the chatBox like any other HTML code editor.</strong> To style these tags, use emededed CSS. </p>
+                             
+                              <h2> Why can't I go to more than 3 contacts?</h2> <p>Yep, sadly, you can only go to 'You', 'Middle School' and 'Duskpin'. Why? I can't be bothered to make the others. I MAY do that, so stick around and see</p>
+                                 
+                            <h2> Does the settings and profile button work? What about the others?</h2>    <p> No, not now. I am working on that actually, so stay tuned!  The search however, will never work. Also, others can't respond to your texts, cos I need a Cloud software for that :P The images and links will work in the future, (HOPEFULLY!!!)
+                                 
+                                 </p>
+           </section>
+<section class ="page" style ="margin-left:200px">
+               <h1 style = "font-size:48px">Settings & More</h1>
+               <h1>Sorry, becuase you're under 13, all settings are in the hands of your gaurdian account(s): Stara Ultimate (Mom) and Pric Ultimate (Dad).</h1>
+               <p>If you'd like to change anything about your privacy, or block and and add some contacts, please ask your gaurdians. Would you like to send a message? ;) </p>
+            <button style = "background-color:var(--primary-color); border:none; padding:8px; color:white; border-radius:26px; position:relative; right:-200px; bottom:-13px; width:100px;" onClick = "lolNothingWillHappen!()">Yes please!</button>
+           </section>
